@@ -183,33 +183,31 @@ KeyboardMode *current_kb_mode = nullptr;
 
 GpioButtonMapping button_mappings[] = {
 #ifndef ALTMAP
-    {&InputState::l,            5 },
-    { &InputState::left,        4 },
-    { &InputState::down,        3 },
-    { &InputState::right,       2 },
+    {&InputState::l,            17 },
+    { &InputState::left,        18 },
+    { &InputState::down,        19 },
+    { &InputState::right,       20 },
 
-    { &InputState::mod_x,       6 },
-    { &InputState::mod_y,       7 },
+    { &InputState::mod_x,       15 },
+    { &InputState::mod_y,       14 },
 
-    { &InputState::select,      10},
-    { &InputState::start,       0 },
-    { &InputState::home,        11},
+    { &InputState::start,       16 },
 
-    { &InputState::c_left,      13},
-    { &InputState::c_up,        12},
-    { &InputState::c_down,      15},
-    { &InputState::a,           14},
-    { &InputState::c_right,     16},
+    { &InputState::c_left,      10},
+    { &InputState::c_up,        9},
+    { &InputState::c_down,      13},
+    { &InputState::a,           12},
+    { &InputState::c_right,     11},
 
-    { &InputState::b,           26},
-    { &InputState::x,           21},
-    { &InputState::z,           19},
-    { &InputState::up,          17},
+    { &InputState::b,           8},
+    { &InputState::x,           7},
+    { &InputState::z,           6},
+    { &InputState::up,          5},
 
-    { &InputState::r,           27},
-    { &InputState::y,           22},
-    { &InputState::lightshield, 20},
-    { &InputState::midshield,   18},
+    { &InputState::r,           4},
+    { &InputState::y,           3},
+    { &InputState::lightshield, 2},
+    { &InputState::midshield,   1},
 #else
 ALTMAP
 #endif
